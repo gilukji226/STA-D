@@ -110,26 +110,23 @@ ___
 ├─category-service
 │  ├─gradle
 │  │  ├─wrapper
-│  ├─src
-│  │  ├─main
-│  │  │  ├─java/com/teddybear/category-service
-│  │  │  │  ├─client
-│  │  │  │  ├─controller
-│  │  │  │  ├─dto
-│  │  │  │  ├─entity
-│  │  │  │  ├─repository
-│  │  │  │  └─service
-│  │      └─command
-│  │          ├─request
-│  │          └─response
-│  │  ├─resources
+│  └─src
+│     └─main
+│        ├─java/com/teddybear/category-service
+│           ├─client
+│           ├─controller
+│           ├─dto
+│           ├─entity
+│           ├─repository
+│           └─service
+│        └─resources
 ├─config-service
 ├─discovery-service
 ├─script-service
 ├─test-service
 ├─user-service
 ├─video-service
-├─word-service
+└─word-service
 
 ```
 
