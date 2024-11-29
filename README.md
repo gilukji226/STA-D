@@ -113,177 +113,36 @@ ___
 │  │  │  └─response
 │  │  ├─entity
 │  │  ├─repository
+│  │  │  │  ├─custom
+│  │  │  │  └─impl
 │  │  └─service
 │  │      └─command
 │  │          ├─request
 │  │          └─response
 │  ├─advertVideo
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
-│  │          ├─request
-│  │          └─response
 │  ├─cart
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
 │  ├─classification
-│  │  ├─controller
-│  │  ├─dto
-│  │  └─service
 │  ├─contents
 │  │  ├─bookmark
-│  │  │  ├─controller
-│  │  │  │  ├─request
-│  │  │  │  └─response
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  │  └─service
-│  │  │      └─command
-│  │  │          └─request
 │  │  ├─category
-│  │  │  ├─controller
-│  │  │  │  └─response
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  │  └─service
-│  │  │      └─command
-│  │  │          └─request
 │  │  ├─categoryRelationship
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  │  └─service
 │  │  ├─concept
-│  │  │  ├─controller
-│  │  │  │  ├─request
-│  │  │  │  └─response
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  │  └─service
-│  │  │      └─command
-│  │  │          ├─request
-│  │  │          └─response
 │  │  ├─detail
-│  │  │  ├─controller
-│  │  │  │  ├─request
-│  │  │  │  └─response
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  │  └─service
-│  │  │      └─command
-│  │  │          ├─request
-│  │  │          └─response
 │  │  ├─label
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  └─service
-│  │  │      └─command
-│  │  │          └─request
 │  │  ├─labelRelationship
-│  │  │  ├─entity
-│  │  │  └─repository
 │  │  └─watched
-│  │      ├─controller
-│  │      │  ├─request
-│  │      │  └─response
-│  │      ├─entity
-│  │      ├─repository
-│  │      │  ├─custom
-│  │      │  └─impl
-│  │      └─service
-│  │          └─command
-│  │              └─request
 │  ├─image
 │  │  ├─product_image
-│  │  │  ├─controller
-│  │  │  │  ├─request
-│  │  │  │  └─response
-│  │  │  ├─entity
-│  │  │  ├─repository
-│  │  │  └─service
-│  │  │      └─command
 │  │  └─review_image
-│  │      └─entity
 │  ├─option
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
 │  ├─orderProduct
-│  │  ├─contoller
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
 │  ├─orders
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
-│  │          ├─request
-│  │          └─response
 │  ├─product
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
 │  ├─productType
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
 │  ├─product_review
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
-│  │      └─command
 │  ├─selectedContent
-│  │  ├─entity
-│  │  ├─repository
-│  │  └─service
 │  ├─study
-│  │  ├─entity
-│  │  └─repository
 │  └─user
-│      ├─controller
-│      │  ├─request
-│      │  └─response
-│      ├─entity
-│      ├─repository
-│      └─service
-│          └─command
 ├─global
 │  ├─api
 │  │  ├─response
