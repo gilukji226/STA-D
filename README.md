@@ -113,12 +113,12 @@ ___
 │  └─src
 │     └─main
 │        ├─java/com/teddybear/category-service
-│           ├─client
-│           ├─controller
-│           ├─dto
-│           ├─entity
-│           ├─repository
-│           └─service
+│        │  ├─client
+│        │  ├─controller
+│        │  ├─dto
+│        │  ├─entity
+│        │  ├─repository
+│        │  └─service
 │        └─resources
 ├─config-service
 ├─discovery-service
