@@ -106,60 +106,31 @@ ___
 ---
 ### 백엔드 디렉토리 구조
  ```sh
-├─domain
-│  ├─advert
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─entity
-│  │  ├─repository
-│  │  │  │  ├─custom
-│  │  │  │  └─impl
-│  │  └─service
+├─apigateway-service
+├─category-service
+│  ├─gradle
+│  │  ├─wrapper
+│  ├─src
+│  │  ├─main
+│  │  │  ├─java/com/teddybear/category-service
+│  │  │  │  ├─client
+│  │  │  │  ├─controller
+│  │  │  │  ├─dto
+│  │  │  │  ├─entity
+│  │  │  │  ├─repository
+│  │  │  │  └─service
 │  │      └─command
 │  │          ├─request
 │  │          └─response
-│  ├─advertVideo
-│  ├─cart
-│  ├─classification
-│  ├─contents
-│  │  ├─bookmark
-│  │  ├─category
-│  │  ├─categoryRelationship
-│  │  ├─concept
-│  │  ├─detail
-│  │  ├─label
-│  │  ├─labelRelationship
-│  │  └─watched
-│  ├─image
-│  │  ├─product_image
-│  │  └─review_image
-│  ├─option
-│  ├─orderProduct
-│  ├─orders
-│  ├─product
-│  ├─productType
-│  ├─product_review
-│  ├─selectedContent
-│  ├─study
-│  └─user
-├─global
-│  ├─api
-│  │  ├─response
-│  │  └─service
-│  │      └─command
-│  ├─auth
-│  │  ├─controller
-│  │  │  ├─request
-│  │  │  └─response
-│  │  ├─jwt
-│  │  └─service
-│  ├─config
-│  ├─event
-│  ├─Interceptor
-│  └─response
-│      └─exception
-└─util
+│  │  ├─resources
+├─config-service
+├─discovery-service
+├─script-service
+├─test-service
+├─user-service
+├─video-service
+├─word-service
+
 ```
 
 #### Alert
