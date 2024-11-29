@@ -39,7 +39,7 @@ public class RedisService {
         return !isContained;
     }
 
-    public boolean isFirstAdvertStreamingRequest(Long userId, Long videoId){
+    public boolean isFirstViewScriptRequest(Long userId, Long videoId){
         String key = NOW_AD_KEY + "/" + userId;
         Boolean isContained = setOperations.isMember(key, videoId.toString());
         if (!isContained){ // is first
@@ -49,7 +49,7 @@ public class RedisService {
         return !isContained;
     }
 
-    public void increaseContentPlayCount(Long detailId) {
+    public void increaseContentViewCount(Long detailId) {
         int currentMinute = LocalTime.now().getHour() * 60 + LocalTime.now().getMinute();
         int totalQuarters = 96; // 하루를 96개의 쿼터로 표현
         int currentQuarter = currentMinute / (24 * 60 / totalQuarters); // 현재 시간에 해당하는 쿼터 계산
